@@ -1,6 +1,6 @@
 # Gatling Dockerfile
 
-This repository has single `Dockerfile` to build container with Gatling v2.0.1
+This repository has single `Dockerfile` to build container with Gatling v2.1.4 (Scala 2.11 compatible)
 
 # Base Docker Image
 
