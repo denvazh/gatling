@@ -1,4 +1,4 @@
-# Gatling 2.0.1
+# Gatling 2.1.4
 
 FROM dockerfile/java:oracle-java8
 
@@ -10,11 +10,11 @@ RUN mkdir -p gatling
 
 # install gatling
 RUN mkdir -p /tmp/downloads && \
-	curl -sf -o /tmp/downloads/gatling-2.0.1.zip \
-	-L http://repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts/2.0.1/gatling-charts-highcharts-2.0.1-bundle.zip && \
+	curl -sf -o /tmp/downloads/gatling-2.1.4.zip \
+	-L https://repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts-bundle/2.1.4/gatling-charts-highcharts-bundle-2.1.4-bundle.zip && \
 	mkdir -p /tmp/archive && cd /tmp/archive && \
-	unzip /tmp/downloads/gatling-2.0.1.zip && \
-	mv /tmp/archive/gatling-charts-highcharts-2.0.1/* /opt/gatling/
+	unzip /tmp/downloads/gatling-2.1.4.zip && \
+	mv /tmp/archive/gatling-charts-highcharts-bundle-2.1.4/* /opt/gatling/
 
 # change context to gatling directory
 WORKDIR  gatling
