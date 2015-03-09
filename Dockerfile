@@ -17,11 +17,13 @@ RUN mkdir -p /tmp/downloads && \
 	mv /tmp/archive/gatling-charts-highcharts-2.0.0/* /opt/gatling/
 
 # change context to gatling directory
-WORKDIR  gatling
+WORKDIR  /opt/gatling
 
-# enable directories below to be mountable from host
+# set directories below to be mountable from host
 VOLUME ["/opt/gatling/conf","/opt/gatling/results","/opt/gatling/user-files"]
 
-# update environment variables
+# set environment variables
 ENV PATH /opt/gatling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ENV GATLING_HOME /opt/gatling
+
+CMD ["gatling.sh"]
