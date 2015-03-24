@@ -1,6 +1,6 @@
 # Gatling 2.1.4
 
-FROM dockerfile/java:oracle-java8
+FROM java:8
 
 # working directory for gatling
 WORKDIR /opt
