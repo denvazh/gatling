@@ -4,7 +4,7 @@ This repository has single `Dockerfile` to build container with Gatling.
 
 # Base Docker Image
 
-* [dockerfile/java:oracle-java8](https://registry.hub.docker.com/u/dockerfile/java)
+* [java](https://registry.hub.docker.com/_/java/)
 
 # Installation
 
@@ -22,7 +22,7 @@ All versions:
 
 Specific version:
 
-`docker pull denvazh/gatling:2.1.4`
+`docker pull denvazh/gatling:2.1.5`
 
 * [Alternatively] Build an image from Dockerfile: `docker build -t="denvazh/gatling" github.com/denvazh/gatling`
 
@@ -31,7 +31,7 @@ Specific version:
 Use image to run container
 
 ```
-docker run -it --rm denvazh/gatling /bin/bash
+docker run -it --rm denvazh/gatling
 ```
 
 Mount configuration and simulation files from host machine and run gatling in interactive mode
