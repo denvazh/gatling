@@ -6,7 +6,7 @@ FROM java:8-jdk
 WORKDIR /opt
 
 # Gating version
-ENV GATLING_VERSION 2.1.5
+ENV GATLING_VERSION 2.1.7
 
 # create directory for gatling install
 RUN mkdir -p gatling
