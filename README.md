@@ -6,6 +6,25 @@ This repository has single `Dockerfile` to build container with Gatling.
 
 * [java](https://registry.hub.docker.com/_/java/)
 
+# Docker Tags
+
+* 2.0.0
+* 2.0.0-RC1
+* 2.0.0-RC2
+* 2.0.0-RC3
+* 2.0.0-RC4
+* 2.0.0-RC5
+* 2.0.0-RC6
+* 2.0.1
+* 2.0.2
+* 2.0.3
+* 2.1.0
+* 2.1.1
+* 2.1.2
+* 2.1.3
+* 2.1.4 (Scala 2.11 compatible)
+* 2.1.5 (Scala 2.11 compatible)
+
 # Installation
 
 * Install [Docker](https://www.docker.com/)
