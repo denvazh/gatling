@@ -24,6 +24,7 @@ This repository has single `Dockerfile` to build container with Gatling.
 * 2.1.3
 * 2.1.4 (Scala 2.11 compatible)
 * 2.1.5 (Scala 2.11 compatible)
+* 2.1.6 (Scala 2.11 compatible)
 * 2.1.7 (latest)(Scala 2.11 compatible)
 
 # Installation
