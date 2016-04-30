@@ -25,7 +25,9 @@
 * 2.2.0-M1
 * 2.2.0-M2
 * 2.2.0-M2
-* 2.2.0 (latest) (Scala 2.11 compatible)
+* 2.2.0 (latest)
+
+[![](https://imagelayers.io/badge/denvazh/gatling:latest.svg)](https://imagelayers.io/?images=denvazh/gatling:latest 'Get your own badge on imagelayers.io')
 
 Note: Gatling versions from 2.1.0 onwards are built with Scala 2.11.
 
