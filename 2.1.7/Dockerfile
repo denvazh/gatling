@@ -1,7 +1,7 @@
 # Gatling is a highly capable load testing tool.
 #
-# Documentation: http://gatling.io/docs/2.2.0/
-# Cheat sheet: http://gatling.io/#/cheat-sheet/2.2.0/
+# Documentation: http://gatling.io/docs/2.1.7/
+# Cheat sheet: http://gatling.io/#/cheat-sheet/2.1.7/
 
 FROM java:8-jdk-alpine
 
@@ -11,7 +11,7 @@ MAINTAINER Denis Vazhenin <denis.vazhenin@me.com>
 WORKDIR /opt
 
 # gating version
-ENV GATLING_VERSION 2.2.0
+ENV GATLING_VERSION 2.1.7
 
 # create directory for gatling install
 RUN mkdir -p gatling
