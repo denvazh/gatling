@@ -1,20 +1,16 @@
-# Gatling Dockerfile
-
-This repository has single `Dockerfile` to build container with Gatling.
-
 # Base Docker Image
 
-* [java](https://registry.hub.docker.com/_/java/)
+* [java:8-jdk-alpine](https://registry.hub.docker.com/_/java/)
 
 # Docker Tags
 
-* 2.0.0
 * 2.0.0-RC1
 * 2.0.0-RC2
 * 2.0.0-RC3
 * 2.0.0-RC4
 * 2.0.0-RC5
 * 2.0.0-RC6
+* 2.0.0
 * 2.0.1
 * 2.0.2
 * 2.0.3
@@ -22,10 +18,16 @@ This repository has single `Dockerfile` to build container with Gatling.
 * 2.1.1
 * 2.1.2
 * 2.1.3
-* 2.1.4 (Scala 2.11 compatible)
-* 2.1.5 (Scala 2.11 compatible)
-* 2.1.6 (Scala 2.11 compatible)
-* 2.1.7 (latest)(Scala 2.11 compatible)
+* 2.1.4
+* 2.1.5
+* 2.1.6
+* 2.1.7
+* 2.2.0-M1
+* 2.2.0-M2
+* 2.2.0-M2
+* 2.2.0 (latest) (Scala 2.11 compatible)
+
+Note: Gatling versions from 2.1.0 onwards are built with Scala 2.11.
 
 # Installation
 
@@ -43,7 +45,7 @@ All versions:
 
 Specific version:
 
-`docker pull denvazh/gatling:2.1.7`
+`docker pull denvazh/gatling:2.2.0`
 
 * [Alternatively] Build an image from Dockerfile: `docker build -t="denvazh/gatling" github.com/denvazh/gatling`
 
