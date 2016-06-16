@@ -25,7 +25,8 @@
 * 2.2.0-M1
 * 2.2.0-M2
 * 2.2.0-M2
-* 2.2.0 (latest)
+* 2.2.0
+* 2.2.1 (latest)
 
 [![](https://imagelayers.io/badge/denvazh/gatling:latest.svg)](https://imagelayers.io/?images=denvazh/gatling:latest 'Get your own badge on imagelayers.io')
 
@@ -47,7 +48,7 @@ All versions:
 
 Specific version:
 
-`docker pull denvazh/gatling:2.2.0`
+`docker pull denvazh/gatling:2.2.1`
 
 * [Alternatively] Build an image from Dockerfile: `docker build -t="denvazh/gatling" github.com/denvazh/gatling`
 
