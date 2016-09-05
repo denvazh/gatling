@@ -1,0 +1,13 @@
+machine:
+  services:
+    - docker
+
+dependencies:
+  override:
+    - docker info
+    - docker pull java:8-jdk-alpine
+    - docker build -t denvazh/gatling .
+
+test:
+  override:
+    - docker run -it --rm denvazh/gatling --help | grep -iq "/opt/gatling"
