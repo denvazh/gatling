@@ -23,7 +23,8 @@ RUN apk add --update wget && \
   https://repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts/$GATLING_VERSION/gatling-charts-highcharts-$GATLING_VERSION-bundle.zip && \
   mkdir -p /tmp/archive && cd /tmp/archive && \
   unzip /tmp/downloads/gatling-$GATLING_VERSION.zip && \
-  mv /tmp/archive/gatling-charts-highcharts-$GATLING_VERSION/* /opt/gatling/
+  mv /tmp/archive/gatling-charts-highcharts-$GATLING_VERSION/* /opt/gatling/ && \
+  rm -rf /tmp/*
 
 # change context to gatling directory
 WORKDIR  /opt/gatling
