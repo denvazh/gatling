@@ -29,7 +29,8 @@
 * 2.2.1
 * 2.2.2 (latest)
 
-[![](https://imagelayers.io/badge/denvazh/gatling:latest.svg)](https://imagelayers.io/?images=denvazh/gatling:latest 'Get your own badge on imagelayers.io')
+[![CircleCI](https://circleci.com/gh/denvazh/gatling/tree/master.svg?style=svg)](https://circleci.com/gh/denvazh/gatling/tree/master)
+[![](https://images.microbadger.com/badges/image/denvazh/gatling.svg)](http://microbadger.com/images/denvazh/gatling "Get your own image badge on microbadger.com")
 
 Note: Gatling versions from 2.1.0 onwards are built with Scala 2.11.
 
