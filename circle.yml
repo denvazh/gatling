@@ -10,4 +10,4 @@ dependencies:
 
 test:
   override:
-    - docker run -it --rm denvazh/gatling --help | grep -iq "/opt/gatling"
+    - docker run -it denvazh/gatling --help | grep -iq "/opt/gatling"
