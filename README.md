@@ -27,7 +27,8 @@
 * 2.2.0-M2
 * 2.2.0
 * 2.2.1
-* 2.2.2 (latest)
+* 2.2.2
+* 2.2.3 (latest)
 
 [![CircleCI](https://circleci.com/gh/denvazh/gatling/tree/master.svg?style=svg)](https://circleci.com/gh/denvazh/gatling/tree/master)
 [![](https://images.microbadger.com/badges/image/denvazh/gatling.svg)](http://microbadger.com/images/denvazh/gatling "Get your own image badge on microbadger.com")
@@ -38,7 +39,7 @@ Note: Gatling versions from 2.1.0 onwards are built with Scala 2.11.
 
 * Install [Docker](https://www.docker.com/)
 
-* Get automated build from public registry: 
+* Get automated build from public registry:
 
 Latest version:
 
@@ -50,7 +51,7 @@ All versions:
 
 Specific version:
 
-`docker pull denvazh/gatling:2.2.2`
+`docker pull denvazh/gatling:2.2.3`
 
 * [Alternatively] Build an image from Dockerfile: `docker build -t="denvazh/gatling" github.com/denvazh/gatling`
 
