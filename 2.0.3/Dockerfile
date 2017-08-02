@@ -17,7 +17,7 @@ ENV GATLING_VERSION 2.0.3
 RUN mkdir -p gatling
 
 # install gatling
-RUN apk add --update wget && \
+RUN apk add --update wget bash && \
   mkdir -p /tmp/downloads && \
   wget -q -O /tmp/downloads/gatling-$GATLING_VERSION.zip \
   https://repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts/$GATLING_VERSION/gatling-charts-highcharts-$GATLING_VERSION-bundle.zip && \
