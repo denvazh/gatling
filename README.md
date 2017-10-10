@@ -30,7 +30,8 @@
 * 2.2.2
 * 2.2.3
 * 2.2.4
-* 2.2.5 (latest)
+* 2.2.5 
+* 2.3.0 (latest)
 
 [![CircleCI](https://circleci.com/gh/denvazh/gatling/tree/master.svg?style=svg)](https://circleci.com/gh/denvazh/gatling/tree/master)
 [![](https://images.microbadger.com/badges/image/denvazh/gatling.svg)](http://microbadger.com/images/denvazh/gatling "Get your own image badge on microbadger.com")
@@ -53,7 +54,7 @@ All versions:
 
 Specific version:
 
-`docker pull denvazh/gatling:2.2.5`
+`docker pull denvazh/gatling:2.3.0`
 
 * [Alternatively] Build an image from Dockerfile: `docker build -t="denvazh/gatling" github.com/denvazh/gatling`
 
@@ -72,4 +73,10 @@ docker run -it --rm -v /home/core/gatling/conf:/opt/gatling/conf \
 -v /home/core/gatling/user-files:/opt/gatling/user-files \
 -v /home/core/gatling/results:/opt/gatling/results \
 denvazh/gatling
+```
+
+Use the -e switch to use JAVA_OPTS to pass paramters to gatling tests
+
+```
+docker run -e JAVA_OPTS="-Dusers=10" -it --rm denvazh/gatling
 ```
