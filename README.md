@@ -75,7 +75,7 @@ docker run -it --rm -v /home/core/gatling/conf:/opt/gatling/conf \
 denvazh/gatling
 ```
 
-Use the -e switch to use JAVA_OPTS to pass paramters to gatling tests
+Use the -e switch to use JAVA_OPTS to pass parameters to gatling tests
 
 ```
 docker run -e JAVA_OPTS="-Dusers=10" -it --rm denvazh/gatling
