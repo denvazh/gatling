@@ -3,7 +3,7 @@
 # Documentation: http://gatling.io/docs/2.2.0/
 # Cheat sheet: http://gatling.io/#/cheat-sheet/2.2.0/
 
-FROM java:8-jdk-alpine
+FROM openjdk:8-jdk-alpine
 
 MAINTAINER Denis Vazhenin <denis.vazhenin@me.com>
 
