@@ -30,7 +30,7 @@
 * 2.2.2
 * 2.2.3
 * 2.2.4
-* 2.2.5 
+* 2.2.5
 * 2.3.0 (latest)
 
 [![CircleCI](https://circleci.com/gh/denvazh/gatling/tree/master.svg?style=svg)](https://circleci.com/gh/denvazh/gatling/tree/master)
