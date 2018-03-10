@@ -37,7 +37,7 @@
 [![CircleCI](https://circleci.com/gh/denvazh/gatling/tree/master.svg?style=svg)](https://circleci.com/gh/denvazh/gatling/tree/master)
 [![](https://images.microbadger.com/badges/image/denvazh/gatling.svg)](http://microbadger.com/images/denvazh/gatling "Get your own image badge on microbadger.com")
 
-Note: Gatling versions from 2.1.0 onwards are built with Scala 2.11.
+Note: Gatling versions from 2.1.0 to 2.2.5 are built with Scala 2.11, versions from 2.3.0 onwards are built with Scala 2.12.
 
 # Installation
 
@@ -67,7 +67,7 @@ Use image to run container
 docker run -it --rm denvazh/gatling
 ```
 
-Mount configuration and simulation files from host machine and run gatling in interactive mode
+Mount configuration and simulation files from the host machine and run gatling in interactive mode
 
 ```
 docker run -it --rm -v /home/core/gatling/conf:/opt/gatling/conf \
@@ -76,7 +76,7 @@ docker run -it --rm -v /home/core/gatling/conf:/opt/gatling/conf \
 denvazh/gatling
 ```
 
-Use the -e switch to use JAVA_OPTS to pass parameters to gatling tests
+Use the `-e` switch to use JAVA_OPTS to pass parameters to gatling tests
 
 ```
 docker run -e JAVA_OPTS="-Dusers=10" -it --rm denvazh/gatling
