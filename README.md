@@ -32,7 +32,8 @@
 * 2.2.4
 * 2.2.5
 * 2.3.0
-* 2.3.1 (latest)
+* 2.3.1
+* 3.0.0 (latest)
 
 [![CircleCI](https://circleci.com/gh/denvazh/gatling/tree/master.svg?style=svg)](https://circleci.com/gh/denvazh/gatling/tree/master)
 [![](https://images.microbadger.com/badges/image/denvazh/gatling.svg)](http://microbadger.com/images/denvazh/gatling "Get your own image badge on microbadger.com")

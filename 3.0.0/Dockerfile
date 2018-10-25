@@ -11,16 +11,13 @@ MAINTAINER Denis Vazhenin <denis.vazhenin@me.com>
 WORKDIR /opt
 
 # gating version
-ENV GATLING_VERSION 3.0.0-RC4
-
-# add compatibility libraries for librcrypto.so
-RUN apk add libc6-compat
+ENV GATLING_VERSION 3.0.0
 
 # create directory for gatling install
 RUN mkdir -p gatling
 
 # install gatling
-RUN apk add --update wget bash && \
+RUN apk add --update wget bash libc6-compat && \
   mkdir -p /tmp/downloads && \
   wget -q -O /tmp/downloads/gatling-$GATLING_VERSION.zip \
   https://repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts-bundle/$GATLING_VERSION/gatling-charts-highcharts-bundle-$GATLING_VERSION-bundle.zip && \
