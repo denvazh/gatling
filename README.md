@@ -33,6 +33,10 @@
 * 2.2.5
 * 2.3.0
 * 2.3.1
+* 3.0.0-RC1
+* 3.0.0-RC2
+* 3.0.0-RC3
+* 3.0.0-RC4
 * 3.0.0 (latest)
 
 [![CircleCI](https://circleci.com/gh/denvazh/gatling/tree/master.svg?style=svg)](https://circleci.com/gh/denvazh/gatling/tree/master)
