@@ -37,7 +37,11 @@
 * 3.0.0-RC2
 * 3.0.0-RC3
 * 3.0.0-RC4
-* 3.0.0 (latest)
+* 3.0.0
+* 3.0.1
+* 3.0.1.1
+* 3.0.2
+* 3.0.3 (latest)
 
 [![CircleCI](https://circleci.com/gh/denvazh/gatling/tree/master.svg?style=svg)](https://circleci.com/gh/denvazh/gatling/tree/master)
 [![](https://images.microbadger.com/badges/image/denvazh/gatling.svg)](http://microbadger.com/images/denvazh/gatling "Get your own image badge on microbadger.com")
@@ -60,7 +64,7 @@ All versions:
 
 Specific version:
 
-`docker pull denvazh/gatling:2.3.1`
+`docker pull denvazh/gatling:3.0.3`
 
 * [Alternatively] Build an image from Dockerfile: `docker build -t="denvazh/gatling" github.com/denvazh/gatling`
 
