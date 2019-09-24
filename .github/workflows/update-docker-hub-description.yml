@@ -2,7 +2,7 @@ name: Update Docker Hub Description
 on:
   push:
     branches:
-    - enable-github-action
+    - master
 jobs:
   dockerHubDescription:
     runs-on: ubuntu-latest
