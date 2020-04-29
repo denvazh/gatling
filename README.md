@@ -85,7 +85,7 @@ docker run -it --rm denvazh/gatling
 ```
 
 Mount configuration and simulation files from the host machine and run gatling in interactive mode
-
+> Make sure the /home/core/gatling/results path exists firstly, otherwise it will suffer write permission issue, because the non-existed host volume will be created as root permission
 ```
 docker run -it --rm -v /home/core/gatling/conf:/opt/gatling/conf \
 -v /home/core/gatling/user-files:/opt/gatling/user-files \
