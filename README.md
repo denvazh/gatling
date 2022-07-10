@@ -7,6 +7,7 @@ Docker image for [Gatling](https://gatling.io/)
 ## Docker Tags
 
 * 3.8.1 (latest)
+* 3.7.6
 * 3.2.1
 
 ## Installation
