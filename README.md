@@ -1,3 +1,5 @@
+Docker image for [Gatling](https://gatling.io/).
+
 ## Base Docker Image
 
 * [java:8-jdk-alpine](https://registry.hub.docker.com/_/java/)
