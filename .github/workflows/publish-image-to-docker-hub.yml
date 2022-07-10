@@ -1,4 +1,4 @@
-name: Publish image to Github Registry
+name: Publish image to Docker Hub
 on: [push]
 jobs:
   update:
@@ -9,7 +9,6 @@ jobs:
         uses: elgohr/Publish-Docker-Github-Action@v4
         with:
           name: ladamalina/gatling
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-          registry: ghcr.io
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
           tag_names: true
