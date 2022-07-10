@@ -1,12 +1,13 @@
-Docker image for [Gatling](https://gatling.io/).
+Docker image for [Gatling](https://gatling.io/)
 
 ## Base Docker Image
 
-* [java:8-jdk-alpine](https://registry.hub.docker.com/_/java/)
+* [openjdk:17-jdk-alpine](https://hub.docker.com/_/openjdk)
 
 ## Docker Tags
 
-* 3.2.1 (latest)
+* 3.8.1 (latest)
+* 3.2.1
 
 ## Installation
 
@@ -24,7 +25,7 @@ All versions:
 
 Specific version:
 
-`docker pull ladamalina/gatling:3.2.1`
+`docker pull ladamalina/gatling:3.8.1`
 
 * [Alternatively] Build an image from Dockerfile: `docker build -t="ladamalina/gatling" github.com/ladamalina/gatling`
 
