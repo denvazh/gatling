@@ -1,12 +1,12 @@
-# Base Docker Image
+## Base Docker Image
 
 * [java:8-jdk-alpine](https://registry.hub.docker.com/_/java/)
 
-# Docker Tags
+## Docker Tags
 
 * 3.2.1 (latest)
 
-# Installation
+## Installation
 
 * Install [Docker](https://www.docker.com/)
 
@@ -26,7 +26,7 @@ Specific version:
 
 * [Alternatively] Build an image from Dockerfile: `docker build -t="ladamalina/gatling" github.com/ladamalina/gatling`
 
-# Usage
+## Usage
 
 Use image to run container
 
