@@ -13,3 +13,4 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
           tag_names: true
+          tag_semver: true
