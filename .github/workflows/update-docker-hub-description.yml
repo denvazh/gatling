@@ -1,10 +1,5 @@
 name: Update Docker Hub Description
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - README.md
+on: [push]
 jobs:
   dockerHubDescription:
     runs-on: ubuntu-latest
