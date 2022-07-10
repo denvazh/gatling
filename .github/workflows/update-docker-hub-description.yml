@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - master
+    tags:
+      - latest
 jobs:
   dockerHubDescription:
     runs-on: ubuntu-latest
