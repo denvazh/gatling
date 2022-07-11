@@ -9,6 +9,7 @@ Docker image for [Gatling](https://gatling.io/)
 * 3.8.2 (latest)
 * 3.8.1
 * 3.7.6
+* 3.6.1
 * 3.2.1
 
 ## Installation
