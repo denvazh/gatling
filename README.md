@@ -6,11 +6,11 @@ Docker image for [Gatling](https://gatling.io/)
 
 ## Docker Tags
 
-* 3.8.2, latest ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.8.2/Dockerfile))
-* 3.8.1 ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.8.1/Dockerfile))
-* 3.7.6 ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.7.6/Dockerfile))
-* 3.6.1 ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.6.1/Dockerfile))
-* 3.2.1 ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.2.1/Dockerfile))
+* `3.8.2`, `latest` ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.8.2/Dockerfile))
+* `3.8.1` ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.8.1/Dockerfile))
+* `3.7.6` ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.7.6/Dockerfile))
+* `3.6.1` ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.6.1/Dockerfile))
+* `3.2.1` ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.2.1/Dockerfile))
 
 ## Installation
 
