@@ -2,15 +2,15 @@ Docker image for [Gatling](https://gatling.io/)
 
 ## Base Docker Image
 
-* [openjdk:17-jdk-alpine](https://hub.docker.com/_/openjdk)
+[openjdk:17-jdk-alpine](https://hub.docker.com/_/openjdk)
 
 ## Docker Tags
 
-* 3.8.2 (latest)
-* 3.8.1
-* 3.7.6
-* 3.6.1
-* 3.2.1
+* 3.8.2, latest ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.8.2/Dockerfile))
+* 3.8.1 ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.8.1/Dockerfile))
+* 3.7.6 ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.7.6/Dockerfile))
+* 3.6.1 ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.6.1/Dockerfile))
+* 3.2.1 ([Dockerfile](https://github.com/ladamalina/gatling/blob/master/3.2.1/Dockerfile))
 
 ## Installation
 
@@ -18,17 +18,16 @@ Docker image for [Gatling](https://gatling.io/)
 
 * Get automated build from public registry:
 
-Latest version:
+```bash
+# Latest version:
+docker pull ladamalina/gatling:latest
 
-`docker pull ladamalina/gatling:latest`
+# All versions:
+docker pull ladamalina/gatling
 
-All versions:
-
-`docker pull ladamalina/gatling`
-
-Specific version:
-
-`docker pull ladamalina/gatling:3.8.1`
+# Specific version:
+docker pull ladamalina/gatling:3.8.2
+```
 
 * [Alternatively] Build an image from Dockerfile: `docker build -t="ladamalina/gatling" github.com/ladamalina/gatling`
 
@@ -43,9 +42,11 @@ docker run -it --rm ladamalina/gatling
 Mount configuration and simulation files from the host machine and run gatling in interactive mode
 
 ```
-docker run -it --rm -v /home/core/gatling/conf:/opt/gatling/conf \
--v /home/core/gatling/user-files:/opt/gatling/user-files \
--v /home/core/gatling/results:/opt/gatling/results \
+docker run -it --rm -v $(pwd)/conf:/opt/gatling/conf \
+-v $(pwd)/user-files/resources:/opt/gatling/user-files/resources \
+-v $(pwd)/user-files/simulations:/opt/gatling/user-files/simulations \
+-v $(pwd)/user-files/lib:/opt/gatling/user-files/lib \
+-v $(pwd)/results:/opt/gatling/results \
 ladamalina/gatling
 ```
 
