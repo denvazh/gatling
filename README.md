@@ -29,7 +29,11 @@ docker pull ladamalina/gatling
 docker pull ladamalina/gatling:3.8.2
 ```
 
-* [Alternatively] Build an image from Dockerfile: `docker build -t="ladamalina/gatling" github.com/ladamalina/gatling`
+* [Alternatively] Build an image from Dockerfile:
+
+```bash
+docker build -t="ladamalina/gatling" github.com/ladamalina/gatling
+````
 
 ## Usage
 
