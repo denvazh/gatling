@@ -1,4 +1,4 @@
-Docker image for [Gatling](https://gatling.io/)
+Docker image for [Gatling](https://gatling.io/) load testing tool
 
 ## Base Docker Image
 
